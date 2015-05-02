@@ -1,0 +1,93 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700|Inconsolata);
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Lato";
+    background-color: #222;
+    color: #d5d3d8;
+}
+
+.vertical-center {
+    min-height: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+#time, #timer {
+    font-family: 'Inconsolata';
+}
+
+#time {
+    font-size: 4em;
+}
+
+#timer {
+    font-size: 24em;
+    line-height: 80%;
+    text-shadow: 2px 2px 4px #aaa;
+}
+
+#timer-label {
+    font-size: 3em;
+    line-height: 0.9em;
+    margin-bottom: 16px;
+}
+
+#container {
+    margin: auto;
+    text-align: center;
+}
+
+.btn {
+    background-color: #666;
+    padding: 25px;
+    margin: 4px 16px;
+}
+
+#presets {
+    border: thin solid black;
+    padding: 4px;
+    margin: auto;
+    margin-top: 12px;
+    background-color: #333;
+}
+
+.btn-preset {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-family: "Inconsolata", monospace;
+    font-size: 1.1rem;
+    margin: 16px 12px;
+}
+
+.btn-preset-normal {
+    background-color: #6c6;
+}
+
+.btn-preset-extended {
+    background-color: #cc6;
+}
+
+.btn-preset-double {
+    background-color: #c66;
+}
+
+#timer-value {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 3px;
+    font-size: 18px;
+    background-color: #333;
+    color: #666;
+    margin-top: 16px;
+    border: thin solid black;
+}
